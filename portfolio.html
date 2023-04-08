@@ -39,8 +39,22 @@
           </ul>
         </nav>
         <ul class="header-contact">
-          <li><a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111" class="address">+48 111 111 111</a></li>
+          <li class="header-contact-color">
+            <a href="mailto:info@devstudio.com" class="address">
+              <svg width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contact-color">
+            <a href="tel:+48111111111" class="address"
+              ><svg width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -55,7 +69,7 @@
             <li><button class="second-button" type="button">Marketing</button></li>
           </ul>
           <ul class="project">
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="laptop" width="370" height="294" src="images/img8.jpg" />
                 <figcaption class="project-description">
@@ -65,7 +79,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="koszykarze" width="370" height="294" src="images/img9.jpg" />
                 <figcaption class="project-description">
@@ -75,7 +89,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="logo restauracji" width="370" height="294" src="images/img10.jpg" />
                 <figcaption class="project-description">
@@ -85,7 +99,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="słuchawki" width="370" height="294" src="images/img11.jpg" />
                 <figcaption class="project-description">
@@ -95,7 +109,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="pudełka" width="370" height="294" src="images/img12.jpg" />
                 <figcaption class="project-description">
@@ -105,7 +119,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="monitor" width="370" height="294" src="images/img13.jpg" />
                 <figcaption class="project-description">
@@ -115,7 +129,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="magazyn" width="370" height="294" src="images/img14.jpg" />
                 <figcaption class="project-description">
@@ -125,7 +139,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="etykieta" width="370" height="294" src="images/img15.jpg" />
                 <figcaption class="project-description">
@@ -135,7 +149,7 @@
               </figure>
             </li>
 
-            <li>
+            <li class="shadow">
               <figure>
                 <img alt="laptop" width="370" height="294" src="images/img16.jpg" />
                 <figcaption class="project-description">
@@ -148,18 +162,53 @@
         </section>
       </div>
     </main>
-    <footer class="backgroud">
+    <footer class="footer-backgroud">
       <div class="container footer-container">
-        <a class="footer-style" href="index.html"><span class="blue-logo">Web</span>Studio</a>
-        <address>
-          <ul>
+        <div>
+          <a class="footer-style" href="index.html"><span class="blue-logo">Web</span>Studio</a>
+          <address>
+            <ul>
+              <li>
+                <p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p>
+              </li>
+              <li><a class="footer-telmail" href="mailto:info@example.com">info@example.com</a></li>
+              <li><a class="footer-telmail" href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-container-social">
+          <h4 class="footer-container-social-title">Dołącz do nas</h4>
+          <ul class="footer-container-social-list">
             <li>
-              <p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p>
+              <a href="#" class="footer-container-social-item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li><a class="address" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="address" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li>
+              <a href="#" class="footer-container-social-item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-container-social-item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-container-social-item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
