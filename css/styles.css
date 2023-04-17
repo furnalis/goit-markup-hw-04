@@ -45,9 +45,7 @@ button {
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--color-grey);
-  fill: var(var(--color-grey));
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -145,6 +143,9 @@ button {
   text-align: center;
   padding-top: 30px;
 }
+.navi1 {
+  display: flex;
+}
 .position {
   color: var(--color-grey);
   padding-bottom: 30px;
@@ -204,12 +205,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
 }
 .navigation {
   display: flex;
   gap: 46px;
   margin-right: 371px;
   padding: 32px 0;
+  padding-left: 93px;
 }
 .big-container {
   display: flex;
@@ -314,7 +317,6 @@ header {
 }
 
 .footer-container-social {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
